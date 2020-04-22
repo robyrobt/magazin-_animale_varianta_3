@@ -36,6 +36,9 @@
     <ClCompile Include="teste_repo_file.cpp">
       <Filter>Source Files\teste</Filter>
     </ClCompile>
+    <ClCompile Include="animal_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animal.h">
@@ -53,9 +56,15 @@
     <ClInclude Include="teste_repo_file.h">
       <Filter>Header Files\teste</Filter>
     </ClInclude>
+    <ClInclude Include="animal_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test_repo_file.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="animale.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

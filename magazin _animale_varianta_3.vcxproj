@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="animal.cpp" />
+    <ClCompile Include="animal_service.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="teste_animal.cpp" />
     <ClCompile Include="teste_repo_file.cpp" />
@@ -155,12 +156,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animal.h" />
+    <ClInclude Include="animal_service.h" />
     <ClInclude Include="repo_file.h" />
     <ClInclude Include="teste_animal.h" />
     <ClInclude Include="teste_repo_file.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="animale.txt" />
     <Text Include="test_repo_file.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

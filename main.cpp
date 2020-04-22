@@ -12,7 +12,6 @@ void all_test() {
     std::cout << "testele au trecut cu succes" << std::endl;
 }
 
-
 int main()
 {
     all_test();
